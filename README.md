@@ -7,7 +7,7 @@ we will show an example for each one independetly.
 
 
 ## Repository Contents :
-* programmed Circuit
-* unProgrammed Circuit
+* programmed Circuit Folder
+* unProgrammed Circuit Folder
 
 This is the submission for week 2 tasks of the Electric path at Smart Method training of 2022.
