@@ -12,11 +12,18 @@ the used components are basic , so the major work is in the code.
 ## Circuit Diagram
 ![image](https://user-images.githubusercontent.com/107868473/180777943-7801a025-976f-4226-bdb3-5d80d0e5ab58.png)
 
-## Idea of the code :
-
-
-
 ## More Infomation
+
+
+## Idea of the code :
+the main idea is that The code :
+* will save a boolean arbiturary state (false=low) at a variable called **lightToggle** and send it to the LED , which will indicate the state of the LED initialy.
+* will caompare between the previous state of the button , and the instant state.
+<b>
+if the they were the same , then the button is not pressed . Otherwise , the two states weill vary resulting for the **lightToggle** to change to the opposite state (wheather it was ON or OFF)
+
+
+
 
 
 <b>
