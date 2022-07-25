@@ -1,6 +1,6 @@
 # Programmed Circuit :
 
-This is a example of a curcuit that can be controlled on/off using only one push Button.  
+This is a example of a circuit that can be controlled on/off using only one push Button.  
 the used components are basic , so the major work is in the code.
 
 <br />
@@ -22,7 +22,7 @@ the used components are basic , so the major work is in the code.
 <br />
 
 
-## More Infomation
+## More Information
 Push Button diagram  
 ![Push-button-Pinout](https://user-images.githubusercontent.com/107868473/180780878-b579ffa5-b229-417e-9d24-66cdb6199e6d.gif)
 
@@ -32,10 +32,11 @@ Push Button diagram
 
 ## Idea of the code :
 the main idea is that The code :
-* will save a boolean arbiturary state (false=low) at a variable called **lightToggle** and send it to the LED , which will indicate the state of the LED initialy.
-* will caompare between the previous state of the button , and the instant state.
-<b>
-if the they were the same , then the button is not pressed . Otherwise , the two states weill vary resulting for the **lightToggle** to change to the opposite state (wheather it was ON or OFF)
+* will save a Boolean state (false=low) at a variable called **lightToggle** and send it to the LED , which will indicate the state of the LED initially (will change with every press).
+* will compare between the previous state of the button , and the instant state.
+
+if the they were the same , then the button is not pressed . Otherwise , the two states will vary resulting for the **lightToggle** to change to the opposite state (whether it was ON or OFF)
+
 
 
 
