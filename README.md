@@ -1,5 +1,5 @@
-# Electric Task 2 :designing an on/off Push Button
-we can acomplish designing a push button switch that controlls the on/off state dpending on:
+# Electric Task 2 : designing an on/off Push Button
+We can acomplish designing a push button switch that controlls the on/off state dpending on:
 * programmed Circuit : intirelly a simple equpment and a backbone is programming.
 * unProgrammed Circuit : using only electrnoc parts.
 
