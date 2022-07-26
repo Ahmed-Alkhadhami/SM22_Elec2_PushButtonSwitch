@@ -45,6 +45,7 @@ if the they were the same , then the button is not pressed . Otherwise , the two
 <b>
   
 ## Online Simulation link (testing) :
-Wokwi : https://wokwi.com/projects/338154709936243283
-
+[**Wokwi**](https://wokwi.com/projects/338154709936243283)  
+<b>
+  
 ![وسائط1](https://user-images.githubusercontent.com/107868473/180782191-21ecfab5-7b7b-4567-a296-273fdd4a8cbc.gif)
