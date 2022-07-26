@@ -1,5 +1,7 @@
 # Programmed Circuit :
 
+<img src="https://user-images.githubusercontent.com/107868473/181055277-cda14dbe-c895-45e0-b35a-bda8054a3d4f.png" width=35% height=35%>
+
 This is a example of a circuit that can be controlled on/off using only one push Button.  
 the used components are basic , so the major work is in the code.
 
@@ -46,6 +48,9 @@ if the they were the same , then the button is not pressed . Otherwise , the two
   
 ## Online Simulation link (testing) :
 [**Wokwi**](https://wokwi.com/projects/338154709936243283)  
-<b>
+ 
+
+https://user-images.githubusercontent.com/107868473/181051676-99168938-6fec-453b-b254-3e8ae78ac946.mp4
+
+
   
-![وسائط1](https://user-images.githubusercontent.com/107868473/180782191-21ecfab5-7b7b-4567-a296-273fdd4a8cbc.gif)
