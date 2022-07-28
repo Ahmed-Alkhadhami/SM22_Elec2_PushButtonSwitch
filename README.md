@@ -1,4 +1,4 @@
-# Electric Task 2 : designing an on/off Push Button
+# Electric Task 2 : Designing an on/off Push Button
 
 <img src="https://user-images.githubusercontent.com/107868473/181055277-cda14dbe-c895-45e0-b35a-bda8054a3d4f.png" width=35% height=35%>
 
@@ -9,7 +9,7 @@ We can accomplish designing a push button switch that controls the on/off state 
 ## Component List :
 * Arduino UNO
 * 2 Resistor (1 kΩ)
-* push Button
+* Push Button
 * LED  
 
 <br/>
@@ -23,17 +23,17 @@ We can accomplish designing a push button switch that controls the on/off state 
 <br/>
 
 
-## Idea of the code :
+## Idea Of The Code :
 ### General :
-the main idea is that The code :
-* will save a Boolean state (false=low) at a variable called **lightToggle** and send it to the LED , which will indicates the state of the LED initially (will change with every press).
-* will compare between the previous state of the button , and the instant state, if they were the same , then the button is not pressed . Otherwise , the two states will vary resulting for the **lightToggle** to change to the opposite state (whether it was ON or OFF).  
+The main idea is that The code :
+* Will save a Boolean state (false=low) at a variable called **lightToggle** and send it to the LED , which will indicates the state of the LED initially (will change with every press).
+* Will compare between the previous state of the button , and the instant state, if they were the same , then the button is not pressed . Otherwise , the two states will vary resulting for the **lightToggle** to change to the opposite state (whether it was ON or OFF).  
 
 <br/>
 
 ### Explaining The Code :
 1 - Pins  
-connecting the LED to pin 12 & Push button to pin 4.
+Connecting the LED to pin 12 & Push button to pin 4.
 ```bash
 int ledPin = 12;
 int butPin = 4;
@@ -53,9 +53,9 @@ bool lightToggle = false;
 ```
 
 
-3 - initializing  
-- initializing status of each used pins whether it's IN or OUT.  
-- starting the serial communication to see the input value changes on the screen.
+3 - Initializing  
+- Initializing status of each used pins whether it's IN or OUT.  
+- Starting the serial communication to see the input value changes on the screen.
 
 ```bash
 void setup()
@@ -69,8 +69,8 @@ void setup()
 
 
 4 - Main Code / Loop
-- assigning the last known value of the button , to the variable **last_button_state** , so it stays updated all the time.  
-- updating the value of the variable **button_state** by reading the PushButton signal (an input value from pin 4) and assigning it .  
+- Assigning the last known value of the button , to the variable **last_button_state** , so it stays updated all the time.  
+- Updating the value of the variable **button_state** by reading the PushButton signal (an input value from pin 4) and assigning it .  
 - Comparing between between the two variables **button_state** &  **last_button_state** and deciding what to do depending on the output. the results can be either of two situations:  
 a. They have the same value : don't do/change anything.  
 b. They have different values : change the status of the LED (**lightToggle**) , so if the LED was ON , this will make it goes OFF and vice versa.  
