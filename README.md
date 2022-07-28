@@ -121,4 +121,4 @@ https://user-images.githubusercontent.com/107868473/181051676-99168938-6fec-453b
 
 
 ---
-This is the submission for week 2 tasks of the Electric path at Smart Method training of 2022.
+This is the submission for week 3 tasks of the Electric path at Smart Method training of 2022.
