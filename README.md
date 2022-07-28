@@ -1,7 +1,9 @@
 # Electric Task 2 : designing an on/off Push Button
+
+<img src="https://user-images.githubusercontent.com/107868473/181055277-cda14dbe-c895-45e0-b35a-bda8054a3d4f.png" width=35% height=35%>
+
 We can accomplish designing a push button switch that controls the on/off state in many ways, using an Arduino to control the process is the most practical and easy to use method. which is depending on using entirely a simple equipment, and the backbone is programming/coding.
 
-<br/>
 <br/>
 
 ## Component List :
